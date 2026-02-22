@@ -33,7 +33,7 @@ ALLOWED_HOSTS = [
 # Note: Django doesn't support wildcards in CSRF_TRUSTED_ORIGINS
 # If you get a new ngrok domain, add it here
 CSRF_TRUSTED_ORIGINS = [
-    "*"
+    "https://todo-app-ostad.onrender.com",
 ]
 
 
